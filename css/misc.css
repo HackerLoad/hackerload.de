@@ -1,0 +1,89 @@
+/* MENU */
+
+.container {
+    font-family: sf-pro-medium;
+    background-color: #212529;
+}
+
+.container .navbar-brand {
+    font-family: sf-pro-bold;
+    background-color: #212529;
+}
+
+.container .nav-item .nav-link {
+    background-color: #212529;
+}
+
+.container .navbar-collapse {
+    background-color: #212529;
+}
+
+.container .dropdown-menu{
+    background-color: #212529;
+}
+
+.container .dropdown-menu.show {
+    background-color: #212529;
+}
+
+.container .dropdown-item {
+    background-color: #212529;
+}
+
+.container .dropdown-item:hover {
+    background-color: #363a40;
+}
+
+.container .dropdown .dropdown-menu .dropdown-item {
+    color: white;
+}
+
+/* ANIMATIONS */
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hover-underline-animation-gray {
+    display: inline-block;
+    position: relative;
+    color: gray;
+}
+  
+.hover-underline-animation-gray::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: gray;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation-gray:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

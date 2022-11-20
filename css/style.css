@@ -1,0 +1,211 @@
+*, body{
+    padding: 0;
+    margin: 0;
+    background-color: #2C2F33;
+}
+
+/* HOME */
+
+.home {
+    padding: 0;
+    margin: 0;
+    background-color: #2C2F33;
+    height: 100%;
+    padding-top: 256px;
+    text-align: center;
+    padding-bottom: 360px;
+}
+
+.home h1 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sf-pro-bold;
+    font-size: 72px;
+    text-align: center;
+}
+
+.home h2 {
+    padding: 0;
+    margin: 0;
+    color: lightgray;
+    font-family: sf-pro-medium;
+    font-size: 28px;
+    text-align: center;
+}
+
+.home p {
+    padding: 0;
+    margin: 0;
+    color: lightgray;
+    font-family: sf-pro-medium;
+    font-size: 18px;
+    padding-bottom: 32px;
+}
+
+.button-about {
+    color: white;
+    padding: 8px 4rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #2C2F33;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 18px;
+}
+
+.button-projects {
+    color: white;
+    padding: 8px 3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #2C2F33;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home a {
+    color: white;
+    text-decoration: none;
+    font-family: sf-pro-medium;
+}
+
+.home a:hover {
+    color: white;
+    text-decoration: underline;
+    font-family: sf-pro-medium;
+}
+
+/* ABOUT */
+
+.about {
+    padding: 0;
+    margin: 0;
+    background-color: #2C2F33;
+    height: 100%;
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 350px;
+}
+
+.about h1 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sf-pro-bold;
+    font-size: 64px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.about p {
+    padding: 0;
+    margin: 0;
+    color: lightgray;
+    font-family: sf-pro-medium;
+    font-size: 16px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+/* CONTACT */
+
+.contact {
+    padding: 0;
+    margin: 0;
+    background-color: #2C2F33;
+    height: 100%;
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 470px;
+}
+
+.contact h1 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sf-pro-bold;
+    font-size: 64px;
+    text-align: center;
+}
+
+.contact h2 {
+    padding: 0;
+    margin: 0;
+    color: lightgray;
+    font-family: sf-pro-bold;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.contact p {
+    padding: 0;
+    margin: 0;
+    color: lightgray;
+    font-family: sf-pro-medium;
+    font-size: 16px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+.contact a {
+    color: gray;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    text-align: center;
+    color: darkgray;
+    font-family: sf-pro-medium;
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: sf-pro-bold;
+    src: url("../fonts/SFProDisplay-Bold.ttf");
+}
+
+@font-face {
+    font-family: sf-pro-bold-italic;
+    src: url("../fonts/SFProDisplay-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: sf-pro-medium;
+    src: url("../fonts/SFProText-Medium.ttf");
+}
+
+@font-face {
+    font-family: "sf-pro-light";
+    src: url("../fonts/SFProText-Light.ttf");
+}
