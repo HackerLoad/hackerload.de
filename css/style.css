@@ -21,7 +21,7 @@
     margin: 0;
     color: white;
     font-family: sf-pro-bold;
-    font-size: 72px;
+    font-size: 64px;
     text-align: center;
 }
 
@@ -101,7 +101,7 @@
     height: 100%;
     padding-top: 200px;
     text-align: center;
-    padding-bottom: 350px;
+    padding-bottom: 300px;
 }
 
 .about h1 {
@@ -174,6 +174,162 @@
     color: gray;
     text-decoration: none;
 }
+
+/* PROJEKTE */
+
+.projects {
+    padding: 0;
+    margin: 0;
+    background-color: #2C2F33;
+    height: 100%;
+    padding-top: 256px;
+    text-align: center;
+    padding-bottom: 350px;
+}
+
+.projects h1 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sf-pro-bold;
+    font-size: 72px;
+    text-align: center;
+}
+
+.projects h2 {
+    padding: 0;
+    margin: 0;
+    color: lightgray;
+    font-family: sf-pro-medium;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 38px;
+}
+
+.button-cpuforyou {
+    color: white;
+    padding: 8px 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #2C2F33;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-patrickf1bot {
+    color: white;
+    padding: 8px 3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #2C2F33;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-delphi {
+    color: white;
+    padding: 8px 4rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #2C2F33;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects a {
+    color: white;
+    text-decoration: none;
+    font-family: sf-pro-medium;
+}
+
+.projects a:hover {
+    color: white;
+    text-decoration: underline;
+    font-family: sf-pro-medium;
+}
+
+.pascal {
+    padding: 0;
+    margin: 0;
+    background-color: #2C2F33;
+    height: 100%;
+    padding-top: 256px;
+    text-align: center;
+}
+
+.pascal h1 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sf-pro-bold;
+    font-size: 72px;
+    text-align: center;
+}
+
+.pascal h2 {
+    padding: 0;
+    margin: 0;
+    color: lightgray;
+    font-family: sf-pro-medium;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 38px;
+}
+
+/* DOWNLOAD */
+
+.download {
+    padding: 0;
+    margin: 0;
+    background-color: #2C2F33;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.download h3 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: sf-pro-medium;
+    padding-bottom: 12px;
+}
+
+.download h4 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: lightgray;
+    font-size: medium;
+    font-family: sf-pro-medium;
+    padding-bottom: 18px;
+}
+
 
 /* FOOTER */
 
